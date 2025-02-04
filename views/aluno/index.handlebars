@@ -1,0 +1,23 @@
+<a href="/aluno/cadastrar">Criar Aluno</a> 
+<table>
+        <thead>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>telefone</th>
+            <th>email</th>
+            <th>nota</th>
+            <th>situação</th>
+        </thead>
+        <tbody>
+            {{#each alunos}}
+               <tr>
+                    <td>{{id}}</td>
+                    <td>{{nome}}</td>
+                    <td>{{telefone}}</td>
+                    <td>{{email}}</td>
+                    <td>{{nota}}</td>
+                    <td>{{situacao}}</td>
+               </tr>
+            {{/each}}
+        </tbody>
+</table>
